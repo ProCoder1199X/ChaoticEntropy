@@ -105,6 +105,6 @@ MIT License
 ---
 
 ## 👑 Creator
-**Dheeraj Kumar.N**
+**Dheeraj Kumar **
 - Developer 
-- Physics lover | Electronics builder | Game designer | 😉
+- x.com/DheerajKumar76x
