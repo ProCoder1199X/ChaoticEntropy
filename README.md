@@ -23,6 +23,7 @@
   - Random coordinates
   - Final entropic number (within 0–99999)
 
+
 -🔧 How to Compile & Run:
 ```bash
 gcc degc_v1.c -o degc
@@ -54,6 +55,40 @@ gcc degc_v1.c -o degc
 - 📦 **Packaged .exe** for one-click use (no need to install Python).
 - 📁 **Cross-platform Ready**: Designed to be compatible with Linux/macOS too.
 - ⚡ Improved UI performance and structure (modularized code into files).
+
+### CEG-v3
+## # 🔐 Chaotic Entropy Generator (CEG) Version 3
+
+---
+
+## ✨ What's New in v3.0?
+
+- 🧠 **Advanced Entropy Algorithm**: Combines seed, geo coordinates, weather, system info, and current time for more unpredictable entropy.
+- 🔢 **Custom Entropy Length**: Select output length (1–128 characters).
+- 🌐 **Offline Mode Toggle**: Instantly switch between online weather and offline pseudo-random temperature.
+- 🛡️ **Input Validation**: Improved checks for seed and entropy length, with clear feedback.
+- 🎨 **Theme System Upgrade**: More robust widget registration and theme application; added "Classic" theme.
+- 🖥️ **UI/UX Improvements**: Better error handling, more informative output, and improved resource loading.
+- 🧩 **Code Quality**: Refactored for readability, modularity, and maintainability.
+- 🏗️ **Robustness**: Handles missing assets gracefully, and falls back to offline mode if weather API fails.
+- 🐞 **Packaging**: Improved startup error reporting for easier debugging.
+
+---
+
+## 🚀 Features Overview
+
+- 🔢 Input seeds between **1–22 digits**
+- 🔢 Select entropy output length (**1–128 characters**)
+- 🌎 Converts input into pseudo-random geo coordinates
+- 🌡 Pulls real-time or fallback weather from Open-Meteo
+- 🧠 Combines system info, time, and seed hash for extra entropy
+- 🔒 Converts combined data into a high-entropy string
+- 🖥 Clean, intuitive UI built with `customtkinter`
+- 📁 Save and copy results directly from interface
+- 🎨 Multiple themes and dark/light mode toggle
+- 🧪 Modular codebase (`main.py`, `ui.py`, `logic.py`, `themes.py`) for easier expansion
+
+
 
 ---
 
@@ -90,15 +125,6 @@ These features make reverse-engineering or brute-forcing the seed extremely diff
 
 ---
 
-## 🧠 Vision for Future
-
-- Plug in real-time temperature APIs
-- Fetch population data based on coordinates
-- Add GPIO sensor support
-- Mix inputs from multiple humans
-- Web version, GUI, and real-world RNG devices
-
----
 
 ## 📜 License
 MIT License 
